@@ -1,0 +1,9 @@
+.cache/
+compile_commands.json
+
+app/build/
+
+CMakeCache.txt
+compile_commands.json
+.ycm_extra_conf.py
+.ycm_flags.json
