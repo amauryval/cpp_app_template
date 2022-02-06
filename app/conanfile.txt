@@ -1,7 +1,5 @@
 [requires]
  gdal/3.3.3
- qt/6.2.2
 
 [generators]
 cmake
-ycm

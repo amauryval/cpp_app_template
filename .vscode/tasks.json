@@ -1,0 +1,21 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Generate executable",
+            "command": "g++",
+             "args": [
+                 "-g",
+                 "${workspaceFolder}/app/src/*.cpp",
+                 "-o",
+                 "${workspaceFolder}/app/build/bin/app",
+                 "-lgdal"
+             ],
+             "group": {
+                 "kind": "build",
+                 "isDefault": true
+             }
+        }
+    ],
+    "version": "2.0.0"
+}
